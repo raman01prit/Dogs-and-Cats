@@ -1,0 +1,15 @@
+<?php
+class Dog{
+    var $name;
+    var $breed;
+    
+    function getStrength()
+    {
+        return rand(1,100);
+    }
+    
+        
+}
+     $fifi = new Dog();
+     echo $fifi->getStrength();
+?>
